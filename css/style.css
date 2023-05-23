@@ -1,1 +1,88 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
 
+.container{
+    border: 3px solid black;
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    background-color:#eeaeca;
+    /* margin: 0; */
+}   
+
+.contain{
+    display: inline-block;
+    width: 11rem;
+    margin: 2rem;
+
+}
+
+#meters{
+    /* margin-bottom: px; */
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+#kilograms{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+#weight{
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: #94bbe9 ;
+}
+
+#btn{
+    border-radius: 2rem;
+    /* box-shadow: 2px 2px 2px 2px black; */
+    display:flex;
+    justify-content: space-between;
+}
+
+#btn1{
+    border-radius: 2rem;
+    box-shadow: 2px 2px 2px 2px black; 
+}
+
+#btn2{
+    border-radius: 2rem;
+    box-shadow: 2px 2px 2px 2px black; 
+}
+
+#message{
+    font-weight: bolder;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -1rem;
+}
+
+#display{
+    font-weight: bolder;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#bmi-output{
+    font-weight: bolder;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
