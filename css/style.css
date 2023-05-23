@@ -71,6 +71,7 @@ button:hover{
     display: flex;
     justify-content: center;
     margin-bottom: -1rem;
+    font-size: small;
 }
 
 #display{
@@ -78,6 +79,7 @@ button:hover{
     font-family: sans-serif;
     display: flex;
     justify-content: center;
+    font-size: small;   
 }
 
 #bmi-output{
@@ -85,4 +87,5 @@ button:hover{
     font-family: sans-serif;
     display: flex;
     justify-content: center;
+    font-size: small;
 }
